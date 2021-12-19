@@ -1,1 +1,1 @@
-web: gunicorn Country:server
+web:gunicorn Country:server

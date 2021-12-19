@@ -598,6 +598,7 @@ df_country.sort_values(by=['Severe Wasting','Stunting','Wasting','Underweight','
 
 
 app = dash.Dash()
+server=app.server
 df = px.data.tips()# Build App
 
 
